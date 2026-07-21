@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/studentRoomsDB.egg-info/PKG-INFO
+src/studentRoomsDB.egg-info/SOURCES.txt
+src/studentRoomsDB.egg-info/dependency_links.txt
+src/studentRoomsDB.egg-info/entry_points.txt
+src/studentRoomsDB.egg-info/requires.txt
+src/studentRoomsDB.egg-info/top_level.txt

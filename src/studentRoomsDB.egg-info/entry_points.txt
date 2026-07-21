@@ -1,0 +1,2 @@
+[console_scripts]
+room-student = main:main
