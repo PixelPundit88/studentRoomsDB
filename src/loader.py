@@ -24,7 +24,11 @@ class DataLoader:
         if not students:
             print("No students found in file")
             return 0
-        query = "INSERT INTO students (id, name, birthday, sex, room_id) VALUES (%s, %s, %s, %s, %s)"
+        query = """
+                INSERT INTO students (id, name, birthday, sex, room_id)
+                VALUES (%s, %s, %s, %s, %s)
+                ON CONFLICT (id) DO NOTHING \
+                """
         values = []
         for student in students:
             birthday = student['birthday'].split('T')[0]
