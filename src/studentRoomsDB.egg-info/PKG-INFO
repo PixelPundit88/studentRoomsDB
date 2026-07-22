@@ -5,3 +5,4 @@ Summary: Student room database management
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: psycopg[binary]>=3.0
+Requires-Dist: python-dotenv>=1.0.0

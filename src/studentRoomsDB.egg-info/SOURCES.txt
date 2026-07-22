@@ -1,6 +1,7 @@
 README.md
 pyproject.toml
 src/__init__.py
+src/config.py
 src/studentRoomsDB.egg-info/PKG-INFO
 src/studentRoomsDB.egg-info/SOURCES.txt
 src/studentRoomsDB.egg-info/dependency_links.txt

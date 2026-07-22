@@ -24,10 +24,8 @@ __pycache__/
 # Environment files
 .env
 .env.local
+.env.*.local
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# Project specific
-data/*.json  # If you don't want to commit test data
